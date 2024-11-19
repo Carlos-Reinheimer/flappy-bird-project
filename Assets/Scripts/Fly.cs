@@ -1,8 +1,7 @@
 using System;
 using UnityEngine;
 
-public class Fly : MonoBehaviour
-{
+public class Fly : MonoBehaviour {
 
     [SerializeField] private float _velocity = 1.5f;
     [SerializeField] private float _rotationSpeed = 10f;
